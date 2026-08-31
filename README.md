@@ -1,7 +1,8 @@
 # Projects-IT-works
-IT Projects and IT works
 Building an On-Premises Microsoft AD/Exchange Infrastructure with a Perimeter Security Gateway
+
 Author: Technical Engineering Portfolio
+
 Target Architecture: Windows Server 2022/2025 Standard/Datacenter, Exchange Server 2019 Cumulative Update 15, pfSense Security Appliance
 
 1. Directory Environment & Identity Database Initialization
