@@ -89,6 +89,7 @@ Execute the headless unattended server configuration build command, verifying ro
 Note: Monitor the early file validation tracking steps. If progress signals freeze indefinitely near the 16% index execution marker block for more than two hours, run a process restart check cycle on your underlying container instance configuration settings.
 
 5. Architectural Verification & Upstream Perimeter Routing
+
 Step 1: Verification of Local Node Services Launch an active Exchange Management Shell (EMS) instance pane and issue the diagnostic confirmation request tool to evaluate installation status:powershell Get-ExchangeServer Confirm that your target server asset returns functional parameters stating a healthy Mailbox role and Standard or Enterprise edition operation state.
 
 Step 2: IIS Security Compliance HardeningExecute a full server reboot to activate configuration metrics. Ensure Extended Protection models match across local virtual directories to insulate Exchange Administration Center (EAC) and Outlook Web App (OWA) interfaces against credential reflection and Man-in-the-Middle (MitM) exploitation vectors.
