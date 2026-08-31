@@ -13,6 +13,7 @@ Prior to running server promotions, configure static interface settings natively
 Assign a strict Static IP Address configuration scheme.
 Map the Default Gateway IP string to target your network's physical edge or routing layer appliance (e.g., your configured pfSense Firewall Appliance core interface gateway address).
 Define upstream fallback variables, pointing local DNS resolution targets back to high-availability recursive lookup endpoints (1.1.1.1 and 1.0.0.1).
+
 Step 2: Role Ingestion & Directory Domain Promotion
 Access the host system dashboard workspace via Server Manager -> Manage -> Add Roles and Features.
 Proceed through the role wizard parameters, selecting Role-based or feature-based installation.
