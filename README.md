@@ -92,8 +92,10 @@ Note: Monitor the early file validation tracking steps. If progress signals free
 
 Step 1: Verification of Local Node Services Launch an active Exchange Management Shell (EMS) instance pane and issue the diagnostic confirmation request tool to evaluate installation status:powershell Get-ExchangeServer Confirm that your target server asset returns functional parameters stating a healthy Mailbox role and Standard or Enterprise edition operation state.
 
-Step 2: IIS Security Compliance HardeningExecute a full server reboot to activate configuration metrics. Ensure Extended Protection models match across local virtual directories to insulate Exchange Administration Center (EAC) and Outlook Web App (OWA) interfaces against credential reflection and Man-in-the-Middle (MitM) exploitation vectors.
+Step 2: IIS Security Compliance Hardening Execute a full server reboot to activate configuration metrics. Ensure Extended Protection models match across local virtual directories to insulate Exchange Administration Center (EAC) and Outlook Web App (OWA) interfaces against credential reflection and Man-in-the-Middle (MitM) exploitation vectors.
 
 Step 3: Verification of Inbound Web Interface Access your environment via a local browser instance directed at the endpoint configuration manager page path: https://localhost/ecp/?ExchClientVer=15. Click through the self-signed SSL/TLS certificate warnings, navigate to the Exchange Administration Center, and authenticate utilizing valid format enterprise single sign-on parameters (e.g., Contoso.com\David).
 
 Step 4: Outbound Messaging Gateway & Send Connectors Create a new enterprise Send Connector asset configuration layer inside the Mail Flow workspace properties tab. Map target address spaces to * (all internet destinations) to establish proper transport mechanics allowing message outbound traversal.
+
+Step 5: Perimeter Target Alignments & Proofpoint Integration For high-security production topologies, avoid mapping open inbound ports or exposing public MX tracking records directly to your on-premises internal network edge. Configure your DNS zones and routing logic to direct all inbound message traffic to clear security gateway layers to enforce deep message body analysis, spam filtering, and attachment sandboxing before clean traffic hits your interior Exchange server boundaries.
